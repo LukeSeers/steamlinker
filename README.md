@@ -9,7 +9,7 @@ More feature will be coming to allow you to have a smoother experience with stea
 
 2. drag steamlinker in to your TeamSpeak 3 Client\plugins\lua_plugin folder
 
-3. In teamspeak 3 go to Settings --> Plugins --> tick Lua Plugin --> Settings --> Tick steamlinker ---> ok --> Reload all --> your done :D
+3. In teamspeak 3 go to Settings --> Plugins --> Tick Lua Plugin --> Settings --> Tick steamlinker ---> Ok --> Reload all --> your done :D
 
 
 # Disclaimer
