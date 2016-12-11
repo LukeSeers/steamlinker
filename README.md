@@ -1,7 +1,7 @@
 # Steamlinker
 Steamlinker, adds a feature in to teamspeak 3 where you can click a steam link and it would open in your steam client instead of your default browser.
 
-Note: Atm it only works for the store.
+Note: Atm it only works for the store, there would be some bugs for now.
 
 More feature will be coming to allow you to have a smoother experience with steam and teamspeak 3 combined.
 
