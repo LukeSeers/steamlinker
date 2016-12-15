@@ -11,6 +11,10 @@ More feature will be coming to allow you to have a smoother experience with stea
 
 Atm it only works for the store.
 
+#Suggestions
+If you have a suggestion which could improve Steamlinker then open an [new issue ticket](https://github.com/Galtrox/Steamlinker/issues)
+
+
 # Install Steps
 
 1. download steamlinker
