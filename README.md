@@ -4,8 +4,9 @@ Steamlinker, adds a feature in to teamspeak 3 where you can click a steam link a
 # Features
 More feature will be coming to allow you to have a smoother experience with steam and teamspeak 3 combined.
 
-1. Store 
-
+1. Store (✓)
+2. Profiles (Coming Soon!)
+3. And More
 
 
 Atm it only works for the store.
