@@ -14,7 +14,7 @@ function onTextMessageEvent(serverConnectionHandlerID, targetMode, toID, fromID,
 
 		end
 
-		if string.find(string.lower(message), "https://steamcommunity.com/profiles/") then
+		if string.find(string.lower(message), "steamcommunity.com/profiles/") then
 
 			ts3.printMessageToCurrentTab("[URL=steam://openurl/https://steamcommunity.com/profiles/"..string.gsub(string.match(message, '%d+'),"/","",2).."]Open in Steam.[/URL]")
 
