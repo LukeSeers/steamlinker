@@ -16,7 +16,7 @@ If you have a suggestion which could improve Steamlinker then open an [new issue
 
 1. download steamlinker
 
-2. drag steamlinker in to your TeamSpeak 3 Client\plugins\lua_plugin folder
+2. drag steamlinker in to your AppData\Roaming\TS3Client\plugins\lua_plugin
 
 3. In teamspeak 3 go to Settings --> Plugins --> Tick Lua Plugin --> Settings --> Tick steamlinker ---> Ok --> Reload all --> your done :D
 
