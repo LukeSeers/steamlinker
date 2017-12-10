@@ -49,7 +49,7 @@ function onTextMessageEvent(serverConnectionHandlerID, targetMode, toID, fromID,
 		ts3.printMessageToCurrentTab("[URL="..string.sub(""..string.gsub(""..message.."", "http://", "steam://openurl/http://").."", 6, -7).."]Open in Steam.[/URL]")
 
 		
-
+end
 	return
 end
 
