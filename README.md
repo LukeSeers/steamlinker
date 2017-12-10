@@ -6,7 +6,7 @@ More feature will be coming to allow you to have a smoother experience with stea
 
 1. Store (✓)
 2. Profiles (✓)
-3. And More
+3. maybe more to come?
 
 #Suggestions
 If you have a suggestion which could improve Steamlinker then open an [new issue ticket](https://github.com/Galtrox/Steamlinker/issues)
