@@ -1,5 +1,6 @@
-# This plugin is broken at the moment
-atm I'm moving steamlinker to python
+# Update
+I've moved steamlinker to python(pyTSon)
+this page will get updateed soon
 
 # Steamlinker
 Steamlinker, adds a feature in to teamspeak 3 where you can click a steam link and it would open in your steam client instead of your default browser. 
