@@ -36,7 +36,7 @@ class testplugin(ts3plugin):
     def onTextMessageEvent(self, schid, targetMode, toID, fromID, fromName, fromUniqueIdentifier, message, ffIgnored):
         if message == message: #this is lazy ass code but I'll fix it once I learn more about python :)
             import requests
-            response = requests.get("https://galtrox.com/settings.json")
+            response = requests.get("https://raw.githubusercontent.com/Galtrox/Steamlinker/master/version.json")
             dataN = response.json()
             MainData = dataN["version"]
             if self.version >= MainData and("steamcommunity.com" or "steampowered.com" in (message)):
