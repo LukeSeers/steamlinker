@@ -35,7 +35,7 @@ class testplugin(ts3plugin):
         if version >= self.version:
             x = QDialog()
             x.setAttribute(Qt.WA_DeleteOnClose)
-            _x = QMessageBox.question(x, self.name, "New version {} of Steamlinker found, do you want to update now?", QMessageBox.Yes, QMessageBox.No)
+            _x = QMessageBox.question(x, "{} v{} by {}".format(self.name, self.version, self.author), "New version {} of Steamlinker found, do you want to update now?", QMessageBox.Yes, QMessageBox.No)
             if _x == QMessageBox.Yes:
                 QDesktopServices.openUrl(QUrl(self.repourl))
 
