@@ -1,8 +1,8 @@
 import ts3lib, ts3defines, devtools
 from ts3plugin import ts3plugin
 from json import loads
-from PythonQt.QtCore import Qt, QUrl, QDesktopServices
-from PythonQt.QtGui import QMessageBox, QDialog
+from PythonQt.QtCore import Qt, QUrl
+from PythonQt.QtGui import QMessageBox, QDialog, QDesktopServices
 from PythonQt.QtNetwork import QNetworkAccessManager, QNetworkRequest, QNetworkReply
 
 class testplugin(ts3plugin):
@@ -32,10 +32,10 @@ class testplugin(ts3plugin):
 
     def updateReply(self, reply):
         version = loads(reply.readAll().data().decode('utf-8'))["version"]
-        if version >= self.version:
+        if version != self.version:
             x = QDialog()
             x.setAttribute(Qt.WA_DeleteOnClose)
-            _x = QMessageBox.question(x, "{} v{} by {}".format(self.name, self.version, self.author), "New version {} of Steamlinker found, do you want to update now?", QMessageBox.Yes, QMessageBox.No)
+            _x = QMessageBox.question(x, "{} v{} by {}".format(self.name, self.version, self.author), "New version v{} of Steamlinker found, do you want to update now?".format(version), QMessageBox.Yes, QMessageBox.No)
             if _x == QMessageBox.Yes:
                 QDesktopServices.openUrl(QUrl(self.repourl))
 
