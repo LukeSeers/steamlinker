@@ -8,7 +8,7 @@ from PythonQt.QtNetwork import QNetworkAccessManager, QNetworkRequest, QNetworkR
 class testplugin(ts3plugin):
     name = "Steamlinker"
     requestAutoload = False
-    version = "1.0.2"
+    version = "1.0.3"
     apiVersion = 21
     author = "Galtrox"
     description = "Steamlinker, adds a feature in to teamspeak 3 where you can click a steam link and it would open in your steam client instead of your default browser."
