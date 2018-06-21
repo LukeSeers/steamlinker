@@ -22,7 +22,7 @@ class testplugin(ts3plugin):
         "store.steampowered.com"
     ]
     updateurl = "https://raw.githubusercontent.com/Galtrox/Steamlinker/master/version.json"
-    repourl = "https://github.com/{}/{}".format(author, name)
+    repourl = "https://github.com/{}/{}/releases".format(author, name)
 
     def __init__(self):
         ts3lib.printMessageToCurrentTab("Steamlinker " + self.version + " loaded")
