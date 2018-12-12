@@ -39,7 +39,6 @@ class testplugin(ts3plugin):
             if _x == QMessageBox.Yes:
                 QDesktopServices.openUrl(QUrl(self.repourl))
 
-    #This was a ugly way of doing it but fuck it for now :)
     def onTextMessageEvent(self, schid, targetMode, toID, fromID, fromName, fromUniqueIdentifier, message, ffIgnored):
         for url in self.domains:
             if url in message:
