@@ -1,3 +1,15 @@
+# FAQ (6 Jan 2020)
+ **Is this plugin dead?**
+ 
+ No, but yes. The plugin is broken becuase PyTSon is no longer being supported, but I do plan on supporting steamlinker for the far future.
+
+ **When do you plan on fixing this plugin?**
+ 
+ Whenever TeamSpeak 5 is out and also the plugin SDK.
+ 
+
+
+
 # Steamlinker
 Steamlinker, adds a feature in to teamspeak 3 where you can click a steam link and it would open in your steam client instead of your default browser. 
 
